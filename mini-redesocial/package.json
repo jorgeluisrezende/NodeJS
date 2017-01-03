@@ -1,0 +1,21 @@
+{
+  "name": "rede_social_com_nodejs",
+  "version": "0.0.1",
+  "description": "\"um simples projeto de rede social criada com nodeJs\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Luis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "consign": "^0.1.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-validator": "^3.1.2",
+    "mariasql": "^0.2.6",
+    "mysql": "^2.12.0"
+  }
+}

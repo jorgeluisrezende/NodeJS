@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>register</title>
+    <%- include("template.ejs"); %>
+  </head>
+  <body class="bg-color">
+    <h1 class="txt-to-center">Cadastre-se agora mesmo, é gratis!</h1>
+        <form class="form" action="/register" method="post">
+          <div class="content">
+            <label for="nome">Nome:</label><br>
+            <input class="field" type="text" name="nome" value=""><br/>
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input class="field" type="text" name="sobrenome" value=""><br/>
+            <label for="email">Email:</label><br>
+            <input class="field" type="text" name="email" value=""><br/>
+            <label for="password">Senha:</label><br>
+            <input class="field" type="password" name="senha" value=""><br/>
+            <input class= "button" type="submit" name="submit" value="Cadastrar">
+          </div>
+        </form>
+  </body>
+</html>
